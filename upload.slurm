@@ -15,7 +15,7 @@
 # We use the "short" QoS as our runtime is less than 20 minutes
 #SBATCH --qos=short
 
-#SBATCH --output=Level1.out
+#SBATCH --output=Level3.out
 
 source /work/m23oc/m23oc/s2484724/miniconda3/etc/profile.d/conda.sh
 conda activate gmy-tool
@@ -30,4 +30,5 @@ module load vtune/latest
 # Change to the submission directory
 cd $SLURM_SUBMIT_DIR
 
-vtune -collect=hotspots -result-dir ./Level1-1 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=hotspots -result-dir ./Level3-1 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=hotspots -result-dir ./Level3-2 hlb-gmy-cli --voxel 0.0001 cyl.pr2

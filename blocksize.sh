@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 指定输出文件名
-output_file="Level1.out"
+output_file="Level3.out"
 
 # 检查文件是否存在
 if [ ! -f "$output_file" ]; then
