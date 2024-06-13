@@ -30,4 +30,4 @@ module load vtune/latest
 # Change to the submission directory
 cd $SLURM_SUBMIT_DIR
 
-vtune -collect=hotspots -result-dir ./aftervoxel0.0001_result --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=hotspots -result-dir ./voxel0.00005_result --start-paused hlb-gmy-cli --voxel 0.00005 cyl.pr2
