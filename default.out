@@ -4,105 +4,32 @@ vtune: Collection paused.
 vtune: Collection resumed.
 Succesfully created closed polygon from input
 The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
-Preprocessing took: 0.072911 s 
-Domain size (3,3,32)
-vtune: Collection paused.
-Setup time: 2.177465 s
-vtune: Collection stopped.
-vtune: Using result path `/mnt/lustre/e1000/home/m23oc/m23oc/s2484724/hemelb-tests/diffTest/default_result'
-vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-951037-r1i0n23.sc' file vtune: Executing actions 12 % Loading 'systemcollector-951037-r1i0n23.sc' file vtune: Executing actions 12 % Loading '951081.stat.perf' file                  vtune: Executing actions 12 % Loading '951037-951081.0.trace' file             vtune: Executing actions 12 % Loading 'userapicollector-951081-81875baa.trace' vtune: Executing actions 12 % Loading 951037-951081.0.pytrace                  vtune: Executing actions 12 % Loading 951037-951081.0.pytrace: processing symbovtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for `Profile.py'           vtune: Executing actions 19 % Resolving information for `hlb-gmy-cli'          vtune: Executing actions 19 % Resolving information for `libgcc_s.so.1'        vtune: Executing actions 19 % Resolving information for `libc.so.6'            
-vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
-vtune: Executing actions 19 % Resolving information for `python3.8'            vtune: Executing actions 19 % Resolving information for `libstdc++.so.6'       vtune: Executing actions 19 % Resolving information for `libvtkCommonCore-9.1.svtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 20 % Resolving information for dangling locations     vtune: Executing actions 20 % Resolving information for `cli.py'               vtune: Executing actions 20 % Resolving information for `OutputGeneration.py'  vtune: Executing actions 20 % Resolving information for `libz.so.1'            vtune: Executing actions 21 % Resolving information for `libz.so.1'            vtune: Executing actions 21 % Resolving information for `Generation.cpython-38-vtune: Executing actions 21 % Resolving information for `libvtkFiltersGeneral-9vtune: Executing actions 22 % Resolving information for `libvtkFiltersGeneral-9vtune: Executing actions 22 % Resolving information for `libcblas.so.3'        vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving interrupt name information             vtune: Executing actions 26 % Resolving interrupt name information             vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 30 % Setting data model parameters                    vtune: Executing actions 30 % Precomputing frequently used data                vtune: Executing actions 30 % Precomputing frequently used data                vtune: Executing actions 31 % Precomputing frequently used data                vtune: Executing actions 33 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 36 % Updating precomputed scalar metrics              vtune: Executing actions 37 % Updating precomputed scalar metrics              vtune: Executing actions 37 % Discarding redundant overtime data               vtune: Executing actions 39 % Discarding redundant overtime data               vtune: Executing actions 39 % Saving the result                                vtune: Executing actions 41 % Saving the result                                vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 51.693s
-    CPU Time: 1.833s
-        Effective Time: 1.833s
-        Spin Time: 0s
-        Overhead Time: 0s
-    Total Thread Count: 72
-    Paused Time: 49.804s
-
-Top Hotspots
-Function                                                                                                                                                                                            Module                                     CPU Time  % of CPU Time(%)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----------------------------------------  --------  ----------------
-longest_match                                                                                                                                                                                       libz.so.1                                    0.730s             39.8%
-CGAL::Intersections::internal::do_intersect_bbox_segment_aux<double, double, (bool)1, (bool)1, (bool)1>                                                                                             Generation.cpython-38-x86_64-linux-gnu.so    0.189s             10.3%
-CGAL::internal::Static_filters_predicates::Orientation_3<CGAL::Filtered_kernel_base<CGAL::Type_equality_wrapper<CGAL::Cartesian_base_no_ref_count<double, CGAL::Epick>, CGAL::Epick>>>::operator()  Generation.cpython-38-x86_64-linux-gnu.so    0.110s              6.0%
-CGAL::Intersections::internal::do_intersect_bbox_segment_aux<double, (bool)1, (bool)1, (bool)1>                                                                                                     Generation.cpython-38-x86_64-linux-gnu.so    0.041s              2.2%
-deflate_slow                                                                                                                                                                                        libz.so.1                                    0.040s              2.2%
-[Others]                                                                                                                                                                                            N/A                                          0.723s             39.5%
-Effective Physical Core Utilization: 2.6% (0.921 out of 36)
- | The metric value is low, which may signal a poor physical CPU cores
- | utilization caused by:
- |     - load imbalance
- |     - threading runtime overhead
- |     - contended synchronization
- |     - thread/process underutilization
- |     - incorrect affinity that utilizes logical cores instead of physical
- |       cores
- | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
- | or run the Locks and Waits analysis to identify parallel bottlenecks for
- | other parallel runtimes.
- |
-    Effective Logical Core Utilization: 1.3% (0.923 out of 72)
-     | The metric value is low, which may signal a poor logical CPU cores
-     | utilization. Consider improving physical core utilization as the first
-     | step and then look at opportunities to utilize logical cores, which in
-     | some cases can improve processor throughput and overall performance of
-     | multi-threaded applications.
-     |
-Collection and Platform Info
-    Application Command Line: hlb-gmy-cli "cyl.pr2" 
-    Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
-    Computer Name: r1i0n23
-    Result Size: 5.1 MB 
-    Collection start time: 15:02:47 13/06/2024 UTC
-    Collection stop time: 15:03:39 13/06/2024 UTC
-    Collector Type: Driverless Perf per-process counting,User-mode sampling and tracing
-    CPU
-        Name: Intel(R) Xeon(R) Processor code named Broadwell
-        Frequency: 2.100 GHz
-        Logical CPU Count: 72
-        LLC size: 47.2 MB 
-        Cache Allocation Technology
-            Level 2 capability: not detected
-            Level 3 capability: available
-
-If you want to skip descriptions of detected performance issues in the report,
-enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
-Alternatively, you may view the report in the csv format: vtune -report
-<report_name> -format=csv.
-vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
-vtune: Warning: Pause command is not supported for managed code profiling. Runtime overhead is still possible. Data size limit may be exceeded.
-vtune: Collection paused.
-vtune: Collection paused.
-vtune: Collection resumed.
-Succesfully created closed polygon from input
-The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
-Preprocessing took: 0.077367 s 
+Preprocessing took: 0.072721 s 
 Domain size (8,8,126)
 vtune: Collection paused.
-Setup time: 34.991858 s
+Setup time: 17.766899 s
 vtune: Collection stopped.
-vtune: Using result path `/mnt/lustre/e1000/home/m23oc/m23oc/s2484724/hemelb-tests/diffTest/defaultvoxel0.0001_result'
-vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-951373-r1i0n23.sc' file vtune: Executing actions 12 % Loading 'systemcollector-951373-r1i0n23.sc' file vtune: Executing actions 12 % Loading '951415.stat.perf' file                  vtune: Executing actions 12 % Loading '951373-951415.0.trace' file             vtune: Executing actions 12 % Loading 'userapicollector-951415-0f2791e9.trace' vtune: Executing actions 12 % Loading 951373-951415.0.pytrace                  vtune: Executing actions 12 % Loading 951373-951415.0.pytrace: processing symbovtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `OutputGeneration.py'  vtune: Executing actions 19 % Resolving information for `hlb-gmy-cli'          vtune: Executing actions 19 % Resolving information for `libz.so.1'            vtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 20 % Resolving information for `libc.so.6'            vtune: Executing actions 20 % Resolving information for `cli.py'               vtune: Executing actions 20 % Resolving information for `Profile.py'           vtune: Executing actions 20 % Resolving information for `libvtkFiltersGeneral-9
+vtune: Using result path `/mnt/lustre/e1000/home/m23oc/m23oc/s2484724/hemelb-tests/diffTest/aftervoxel0.0001_result'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-955243-r1i0n23.sc' file vtune: Executing actions 12 % Loading 'systemcollector-955243-r1i0n23.sc' file vtune: Executing actions 12 % Loading '955287.stat.perf' file                  vtune: Executing actions 12 % Loading '955243-955287.0.trace' file             vtune: Executing actions 12 % Loading 'userapicollector-955287-c7b472a8.trace' vtune: Executing actions 12 % Loading 955243-955287.0.pytrace                  vtune: Executing actions 12 % Loading 955243-955287.0.pytrace: processing symbovtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for `hlb-gmy-cli'          vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `cli.py'               vtune: Executing actions 19 % Resolving information for `libc.so.6'            
 vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
-vtune: Executing actions 20 % Resolving information for `libstdc++.so.6'       vtune: Executing actions 20 % Resolving information for `libvtkCommonDataModel-vtune: Executing actions 20 % Resolving information for `python3.8'            vtune: Executing actions 20 % Resolving information for `Generation.cpython-38-vtune: Executing actions 21 % Resolving information for `Generation.cpython-38-vtune: Executing actions 21 % Resolving information for `libcblas.so.3'        vtune: Executing actions 22 % Resolving information for `libcblas.so.3'        vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving interrupt name information             vtune: Executing actions 26 % Resolving interrupt name information             vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 30 % Setting data model parameters                    vtune: Executing actions 30 % Precomputing frequently used data                vtune: Executing actions 30 % Precomputing frequently used data                vtune: Executing actions 31 % Precomputing frequently used data                vtune: Executing actions 33 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 36 % Updating precomputed scalar metrics              vtune: Executing actions 37 % Updating precomputed scalar metrics              vtune: Executing actions 37 % Discarding redundant overtime data               vtune: Executing actions 39 % Discarding redundant overtime data               vtune: Executing actions 39 % Saving the result                                vtune: Executing actions 41 % Saving the result                                vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 43.068s
-    CPU Time: 34.506s
-        Effective Time: 34.506s
+vtune: Executing actions 19 % Resolving information for `python3.8'            vtune: Executing actions 19 % Resolving information for `libstdc++.so.6'       vtune: Executing actions 19 % Resolving information for `libvtkFiltersGeneral-9vtune: Executing actions 19 % Resolving information for `libvtkCommonCore-9.1.svtune: Executing actions 20 % Resolving information for `libvtkCommonCore-9.1.svtune: Executing actions 20 % Resolving information for `OutputGeneration.py'  vtune: Executing actions 20 % Resolving information for `libz.so.1'            vtune: Executing actions 20 % Resolving information for `libgcc_s.so.1'        vtune: Executing actions 20 % Resolving information for `Generation.cpython-38-vtune: Executing actions 20 % Resolving information for `Profile.py'           vtune: Executing actions 21 % Resolving information for `Profile.py'           vtune: Executing actions 22 % Resolving information for `Profile.py'           vtune: Executing actions 22 % Resolving information for `libcblas.so.3'        vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving interrupt name information             vtune: Executing actions 26 % Resolving interrupt name information             vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 30 % Setting data model parameters                    vtune: Executing actions 30 % Precomputing frequently used data                vtune: Executing actions 30 % Precomputing frequently used data                vtune: Executing actions 31 % Precomputing frequently used data                vtune: Executing actions 33 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 36 % Updating precomputed scalar metrics              vtune: Executing actions 37 % Updating precomputed scalar metrics              vtune: Executing actions 37 % Discarding redundant overtime data               vtune: Executing actions 39 % Discarding redundant overtime data               vtune: Executing actions 39 % Saving the result                                vtune: Executing actions 41 % Saving the result                                vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 60.153s
+    CPU Time: 17.300s
+        Effective Time: 17.300s
         Spin Time: 0s
         Overhead Time: 0s
     Total Thread Count: 72
-    Paused Time: 8.180s
+    Paused Time: 42.626s
 
 Top Hotspots
 Function                                                                                                                                                                                            Module                                     CPU Time  % of CPU Time(%)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----------------------------------------  --------  ----------------
-longest_match                                                                                                                                                                                       libz.so.1                                   17.708s             51.3%
-CGAL::Intersections::internal::do_intersect_bbox_segment_aux<double, double, (bool)1, (bool)1, (bool)1>                                                                                             Generation.cpython-38-x86_64-linux-gnu.so    2.470s              7.2%
-CGAL::internal::Static_filters_predicates::Orientation_3<CGAL::Filtered_kernel_base<CGAL::Type_equality_wrapper<CGAL::Cartesian_base_no_ref_count<double, CGAL::Epick>, CGAL::Epick>>>::operator()  Generation.cpython-38-x86_64-linux-gnu.so    1.060s              3.1%
-deflate_slow                                                                                                                                                                                        libz.so.1                                    1.020s              3.0%
-operator new                                                                                                                                                                                        libstdc++.so.6                               0.770s              2.2%
-[Others]                                                                                                                                                                                            N/A                                         11.477s             33.3%
-Effective Physical Core Utilization: 2.6% (0.944 out of 36)
+CGAL::Intersections::internal::do_intersect_bbox_segment_aux<double, double, (bool)1, (bool)1, (bool)1>                                                                                             Generation.cpython-38-x86_64-linux-gnu.so    2.450s             14.2%
+longest_match                                                                                                                                                                                       libz.so.1                                    1.220s              7.1%
+deflate_slow                                                                                                                                                                                        libz.so.1                                    0.980s              5.7%
+CGAL::internal::Static_filters_predicates::Orientation_3<CGAL::Filtered_kernel_base<CGAL::Type_equality_wrapper<CGAL::Cartesian_base_no_ref_count<double, CGAL::Epick>, CGAL::Epick>>>::operator()  Generation.cpython-38-x86_64-linux-gnu.so    0.880s              5.1%
+operator new                                                                                                                                                                                        libstdc++.so.6                               0.690s              4.0%
+[Others]                                                                                                                                                                                            N/A                                         11.080s             64.0%
+Effective Physical Core Utilization: 2.7% (0.989 out of 36)
  | The metric value is low, which may signal a poor physical CPU cores
  | utilization caused by:
  |     - load imbalance
@@ -115,7 +42,7 @@ Effective Physical Core Utilization: 2.6% (0.944 out of 36)
  | or run the Locks and Waits analysis to identify parallel bottlenecks for
  | other parallel runtimes.
  |
-    Effective Logical Core Utilization: 1.3% (0.945 out of 72)
+    Effective Logical Core Utilization: 1.4% (0.989 out of 72)
      | The metric value is low, which may signal a poor logical CPU cores
      | utilization. Consider improving physical core utilization as the first
      | step and then look at opportunities to utilize logical cores, which in
@@ -126,9 +53,9 @@ Collection and Platform Info
     Application Command Line: hlb-gmy-cli "--voxel" "0.0001" "cyl.pr2" 
     Operating System: 4.18.0-305.25.1.el8_4.x86_64 Red Hat Enterprise Linux release 8.4 (Ootpa)
     Computer Name: r1i0n23
-    Result Size: 6.5 MB 
-    Collection start time: 15:04:08 13/06/2024 UTC
-    Collection stop time: 15:04:52 13/06/2024 UTC
+    Result Size: 6.0 MB 
+    Collection start time: 16:11:13 13/06/2024 UTC
+    Collection stop time: 16:12:13 13/06/2024 UTC
     Collector Type: Driverless Perf per-process counting,User-mode sampling and tracing
     CPU
         Name: Intel(R) Xeon(R) Processor code named Broadwell
