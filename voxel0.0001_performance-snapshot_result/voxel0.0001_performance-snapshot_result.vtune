@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1718370204</timestamp>
+  <hostname type="string">r1i0n23</hostname>
+  <os type="string">linux</os>
+  <product type="string">Intel® VTune™ Profiler 2024.0.0</product>
+  <buildNumber type="s32_t">626834</buildNumber>
+  <logicalCPUCount type="s32_t">72</logicalCPUCount>
+  <physicalCoreCount type="s32_t">36</physicalCoreCount>
+  <processorPackageCount type="s32_t">2</processorPackageCount>
+  <CPUFrequency type="s64_t">2100000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">79</CPUModel>
+  <CPUStepping type="s32_t">1</CPUStepping>
+  <CPUBrandName type="string">Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz</CPUBrandName>
+  <isa type="string">avx2</isa>
+  <collectionTimeBegin type="u64_t">1718370205</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1718370262</collectionTimeEnd>
+  <variables>
+   <at type="string">ps</at>
+  </variables>
+ </rdmgr>
+</root>
