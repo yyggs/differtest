@@ -1,0 +1,8 @@
+Using CPUID GenuineIntel-6-4F-1
+Events disabled
+
+1023266:perf-sync:ready:SYS=923985118331528
+Message from ctl_fd: "enable\0"
+Events enabled
+Message from ctl_fd: "disable\0"
+Events disabled
