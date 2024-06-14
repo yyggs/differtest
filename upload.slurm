@@ -31,6 +31,6 @@ module load vtune/latest
 cd $SLURM_SUBMIT_DIR
 
 #vtune -collect=hotspots -result-dir ./voxel0.00005_result --start-paused hlb-gmy-cli --voxel 0.00005 cyl.pr2
-#vtune -collect=memory-consumption -result-dir ./voxel0.0001_memory-consumption_result --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=memory-consumption -result-dir ./voxel0.0004_memory-consumption_result --start-paused hlb-gmy-cli --voxel 0.0004 cyl.pr2
 #vtune -collect=memory-access -result-dir ./voxel0.00005_memory-access_result --start-paused hlb-gmy-cli --voxel 0.00005 cyl.pr2
-vtune -collect=hotspots -result-dir ./deaultvoxel_result --start-paused hlb-gmy-cli cyl.pr2
+#vtune -collect=hotspots -result-dir ./deaultvoxel_result --start-paused hlb-gmy-cli cyl.pr2
