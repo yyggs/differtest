@@ -34,5 +34,6 @@ cd $SLURM_SUBMIT_DIR
 #vtune -collect=memory-consumption -result-dir ./voxel0.0004_memory-consumption_result --start-paused hlb-gmy-cli --voxel 0.0004 cyl.pr2
 #vtune -collect=performance-snapshot -result-dir ./voxel0.00005_performance-snapshot_result --start-paused hlb-gmy-cli --voxel 0.00005 cyl.pr2
 #vtune -collect=hotspots -result-dir ./deaultvoxel_result --start-paused hlb-gmy-cli cyl.pr2
-vtune -collect=hotspots -result-dir ./voxel0.0001_hotspots1 --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
-vtune -collect=hotspots -result-dir ./voxel0.0001_hotspots2 --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=hotspots -result-dir ./site_pointer_remove/voxel0.0001_1 --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=hotspots -result-dir ./site_pointer_remove/voxel0.0001_2 --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
+vtune -collect=hotspots -result-dir ./site_pointer_remove/voxel0.0001_3 --start-paused hlb-gmy-cli --voxel 0.0001 cyl.pr2
