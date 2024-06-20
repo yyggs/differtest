@@ -1,0 +1,101 @@
+
+1499498 : 0x529822ebd8ebd : 3 : logger_init :  LOG FILE OPENED (by collectunits.logger), level: 4
+1499498 : 0x529822fd5df90 : 4 : probePythonFunctions :  PyThreadState_Swap
+1499498 : 0x529822fe9e663 : 4 : probePythonFunctions :  PyThreadState_Swap probed at 0x15353d519348
+1499498 : 0x529822fea291b : 4 : probePythonFunctions :  PyImport_Cleanup
+1499498 : 0x5298230118616 : 4 : probePythonFunctions :  PyImport_Cleanup probed at 0x15353d519378
+1499498 : 0x529823011c4b4 : 4 : probePythonFunctions :  PyThreadState_Clear
+1499498 : 0x52982302a5365 : 4 : probePythonFunctions :  PyThreadState_Clear probed at 0x15353d5193b0
+1499498 : 0x52982302a8e09 : 4 : probePythonFunctions :  Py_Initialize
+1499498 : 0x52982303949e0 : 4 : probePythonFunctions :  Py_Initialize probed at 0x15353d5193d8
+1499498 : 0x5298230398436 : 4 : probePythonFunctions :  Py_InitializeEx
+1499498 : 0x52982304a8cd3 : 4 : probePythonFunctions :  Py_InitializeEx probed at 0x15353d519418
+1499498 : 0x52982304ac79c : 4 : probePythonFunctions :  PyOS_AfterFork_Child
+1499498 : 0x52982305982a2 : 4 : probePythonFunctions :  PyOS_AfterFork_Child probed at 0x15353d519460
+1499498 : 0x529823059bd8a : 4 : probePythonFunctions :  PyCode_New
+1499498 : 0x5298230666970 : 4 : probePythonFunctions :  PyCode_New probed at 0x15353d5194a8
+1499498 : 0x529823066a423 : 4 : probePythonFunctions :  Py_FinalizeEx
+1499498 : 0x5298230811f52 : 4 : probePythonFunctions :  Py_FinalizeEx probed at 0x15353d5194d0
+1499498 : 0x529823081599d : 4 : probePythonFunctions :  _PyEval_EvalFrameDefault
+1499498 : 0x529823202b012 : 4 : probePythonFunctions :  _PyEval_EvalFrameDefault probed at 0x15353d5194f8
+1499498 : 0x529823202edb5 : 4 : probePythonFunctions :  PyCode_NewWithPosOnlyArgs
+1499498 : 0x52982324534b3 : 4 : probePythonFunctions :  PyCode_NewWithPosOnlyArgs probed at 0x15353d519520
+1499498 : 0x529823245703d : 4 : probePythonFunctions :  Py_RunMain
+1499498 : 0x52982326b5df0 : 4 : probePythonFunctions :  Py_RunMain probed at 0x15353d519548
+1499498 : 0x52982326b995c : 4 : probePythonFunctions :  Py_InitializeFromConfig
+1499498 : 0x52982328de525 : 4 : probePythonFunctions :  Py_InitializeFromConfig probed at 0x15353d519590
+1499498 : 0x52982328e1fdc : 4 : probePythonFunctions :  _PySignal_AfterFork
+1499498 : 0x529823290548b : 4 : probePythonFunctions :  the _PySignal_AfterFork size is too small to be probed: size=4. Skip and continue
+1499498 : 0x529823290c869 : 4 : probePythonFunctions :  PyInterpreterState_Head
+1499498 : 0x5298232a0c0d5 : 4 : probePythonFunctions :  PyInterpreterState_Next
+1499498 : 0x5298232b0a61a : 4 : probePythonFunctions :  PyInterpreterState_ThreadHead
+1499498 : 0x5298232c114f2 : 4 : probePythonFunctions :  PyThreadState_Next
+1499498 : 0x5298232d1220b : 4 : probePythonFunctions :  PyThreadState_New
+1499498 : 0x5298232e2e67c : 4 : probePythonFunctions :  PyThreadState_Delete
+1499498 : 0x5298232e5e548 : 4 : probePythonFunctions :  PyGILState_GetThisThreadState
+1499498 : 0x5298232e77916 : 4 : probePythonFunctions :  PyEval_AcquireThread
+1499498 : 0x5298232f7807e : 4 : probePythonFunctions :  PyEval_ReleaseThread
+1499498 : 0x5298232f9e72d : 4 : probePythonFunctions :  Py_GetVersion
+1499498 : 0x52982330995e9 : 4 : probePythonFunctions :  PySys_GetObject
+1499498 : 0x529823317de01 : 4 : probePythonFunctions :  PyLong_AsLong
+1499498 : 0x529823325246f : 4 : probePythonFunctions :  Py_IncRef
+1499498 : 0x5298233260357 : 4 : probePythonFunctions :  Py_DecRef
+1499498 : 0x529823326f7a2 : 4 : probePythonFunctions :  PyThreadState_Get
+1499498 : 0x5298233332ac2 : 4 : probePythonFunctions :  PyEval_GetFrame
+1499498 : 0x5298233438956 : 4 : probePythonFunctions :  PyEval_ThreadsInitialized
+1499498 : 0x529823344e5e9 : 4 : probePythonFunctions :  PyObject_GetAttrString
+1499498 : 0x5298233532e6a : 4 : probePythonFunctions :  PyObject_Call
+1499498 : 0x52982335f5d03 : 4 : probePythonFunctions :  PyTuple_New
+1499498 : 0x52982336c6690 : 4 : probePythonFunctions :  PyTuple_SetItem
+1499498 : 0x529823378a841 : 4 : probePythonFunctions :  PyList_New
+1499498 : 0x529823386ddc4 : 4 : probePythonFunctions :  PyList_GetItem
+1499498 : 0x52982339659ab : 4 : probePythonFunctions :  PyList_Size
+1499498 : 0x5298233a34f18 : 4 : probePythonFunctions :  PyThread_get_thread_ident
+1499498 : 0x5298233b011e1 : 4 : probePythonFunctions :  PyErr_Fetch
+1499498 : 0x5298233bcd60e : 4 : probePythonFunctions :  PyErr_Restore
+1499498 : 0x5298233c89b74 : 4 : probePythonFunctions :  PyDict_Next
+1499498 : 0x5298233d4acad : 4 : probePythonFunctions :  PyDict_Size
+1499498 : 0x5298233d86d77 : 4 : probePythonFunctions :  PyDict_GetItemString
+1499498 : 0x5298233e6d23c : 4 : probePythonFunctions :  PyImport_GetModuleDict
+1499498 : 0x5298233f3024f : 4 : probePythonFunctions :  PyBytes_AsStringAndSize
+1499498 : 0x5298234046305 : 4 : probePythonFunctions :  PyBytes_AsString
+1499498 : 0x529823414c708 : 4 : probePythonFunctions :  PyUnicode_EncodeLocale
+1499498 : 0x5298234266f32 : 4 : probePythonFunctions :  PyUnicode_EncodeFSDefault
+1499498 : 0x529823876a0bd : 4 : pytrace_start_profiling :  [CALLED]
+1499498 : 0x529824329f2b9 : 4 : pytrace_start_profiling :  [CALLED]
+1499498 : 0x52982432a6beb : 4 : initTmu :  init tmu started
+1499498 : 0x52982432d9b04 : 4 : initTmu :  init tmu finished
+1499498 : 0x52982432f5cdc : 4 : start :  pytrace started successfully
+1499498 : 0x52982432ff8cc : 4 : pytrace_start_profiling :  PyTrace collection is started
+1499498 : 0x52982433b3eac : 4 : Py_InitializeFromConfig :  [CALLED]
+1499498 : 0x529824753ea6a : 4 : PyEval_InitThreads :  [CALLED]
+1499498 : 0x52982475474af : 4 : Py_RunMain :  [CALLED]
+1499498 : 0x529824754ab80 : 4 : PyEval_InitThreads :  [CALLED]
+1499498 : 0x529824754ef1c : 4 : PyEval_InitThreads :  [CALLED]
+1499498 : 0x529824763a99c : 4 : writeInitialInfo :  write initial info started
+1499498 : 0x5298247643736 : 4 : writeInitialInfo :  write initial info finished
+1499515 : 0x529889176f7c2 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=1
+1499515 : 0x5298891778a03 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=1
+1499515 : 0x5298891780711 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=12 and deltaLine=1
+1499515 : 0x5298891788391 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=1
+1499515 : 0x529889178ffa1 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=26 and deltaLine=1
+1499515 : 0x52988917a7387 : 4 : getSourceLines :  Added faked src entry 62-78 8. Python did not provide src line for this code range.
+1499515 : 0x52988917b6d6f : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=0 and deltaLine=2
+1499515 : 0x52988917bdbc2 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=2
+1499515 : 0x52988917c48f4 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=10 and deltaLine=1
+1499515 : 0x52988917cb64a : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=4 and deltaLine=4
+1499515 : 0x52988917d2352 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=12 and deltaLine=2
+1499515 : 0x52988917de4ce : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=6 and deltaLine=1
+1499515 : 0x52988917e6f3e : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=10 and deltaLine=3
+1499515 : 0x52988917ef987 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=14 and deltaLine=2
+1499515 : 0x52988917f8425 : 4 : getSourceLines :  Added faked src entry 64-76 59. Python did not provide src line for this code range.
+1499515 : 0x529889180865f : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=0 and deltaLine=1
+1499515 : 0x52988918110f7 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=12 and deltaLine=2
+1499515 : 0x5298891819b37 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=1
+1499515 : 0x5298891826058 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=1
+1499515 : 0x5298891830b31 : 4 : getSourceLines :  Added faked src entry 28-32 257. Python did not provide src line for this code range.
+1499515 : 0x529889183b9d0 : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=0 and deltaLine=2
+1499515 : 0x529889184272c : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=6 and deltaLine=1
+1499515 : 0x529889184942a : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=8 and deltaLine=1
+1499515 : 0x529889185010b : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=14 and deltaLine=1
+1499515 : 0x5298891856e1e : 4 : getSourceLines :  co_lnotab data: a pair is deltaByte=12 and deltaLine=1
