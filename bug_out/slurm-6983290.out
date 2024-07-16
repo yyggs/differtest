@@ -1,0 +1,50 @@
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.080943 s 
+Setup time: 13.655636 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.080564 s 
+Setup time: 17.824679 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.081599 s 
+Setup time: 13.406108 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.080983 s 
+Setup time: 15.151534 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.079978 s 
+Setup time: 13.375986 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.080327 s 
+Setup time: 13.384734 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.080478 s 
+Setup time: 13.836103 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.082594 s 
+Setup time: 16.919546 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063771 s 
+Setup time: 13.301001 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063098 s 
+Setup time: 13.442282 s

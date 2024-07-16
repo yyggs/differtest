@@ -1,0 +1,61 @@
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.105919 s 
+Execution time: 3.5477 seconds
+Setup time: 3.638242 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.106088 s 
+Execution time: 3.4962 seconds
+Setup time: 3.707688 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.107496 s 
+Execution time: 3.47999 seconds
+Setup time: 4.625754 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.110829 s 
+Execution time: 3.54681 seconds
+Setup time: 3.557115 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.108269 s 
+Execution time: 3.49242 seconds
+double free or corruption (!prev)
+/var/spool/slurmd/job6984110/slurm_script: line 30: 22100 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.10571 s 
+Execution time: 3.49201 seconds
+Setup time: 3.534257 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.106262 s 
+Execution time: 3.50601 seconds
+Setup time: 3.551011 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.106355 s 
+Execution time: 3.50941 seconds
+Setup time: 6.110692 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.10635 s 
+Execution time: 4.35957 seconds
+Setup time: 4.402874 s
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.10623 s 
+Execution time: 3.48112 seconds
+Setup time: 3.523148 s

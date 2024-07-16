@@ -1,0 +1,179 @@
+[33mcommit ce6f8ac807e96d702fd8cd4671f2e3344465944e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Bo Chen <1652496272@qq.com>
+Date:   Tue Jul 16 20:38:03 2024 +0100
+
+    Archer2 first commit
+
+[33mcommit 575b50e4672723dda43d17a91362e53f95626b52[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bo Chen <67227210+yyggs@users.noreply.github.com>
+Date:   Fri Jun 21 21:31:34 2024 +0100
+
+    Update README.md
+
+[33mcommit 63c060752eb7592487a801c91cf4b3ea07aa1ffa[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 20 17:41:29 2024 +0100
+
+    6.20
+
+[33mcommit 211730fb9cdbec89e10bde6dbe36989c5e155b0a[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 20 17:13:38 2024 +0100
+
+    consumption
+
+[33mcommit d45c268192fffb3ab8f32ef919cfc905f032ef9a[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 20 17:11:47 2024 +0100
+
+    consumption
+
+[33mcommit ac2998a8b5ecfe8c684793e9774400759ffa43b4[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 20 17:01:46 2024 +0100
+
+    6.20
+
+[33mcommit 3290c113862f3352b82223482b1841ead4698529[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 20 16:53:06 2024 +0100
+
+    results
+
+[33mcommit ccb0edafbbbaee0a53814bcc8283e67a98b4bbac[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 20 16:32:47 2024 +0100
+
+    site profile
+
+[33mcommit 663e7176e329b218aa9f63e95db8580569208777[m
+Author: Bo Chen <1652496272@qq.com>
+Date:   Thu Jun 20 16:10:01 2024 +0100
+
+    folder
+
+[33mcommit 8725f6bc2c24a65e6f41c812e4419676c7f4da02[m[33m ([m[1;33mtag: Profilin_results_v1[m[33m)[m
+Author: Bo Chen <1652496272@qq.com>
+Date:   Wed Jun 19 15:15:10 2024 +0100
+
+    6.19
+
+[33mcommit 4598d80c7ca00b766d1d98375ed62c360b107269[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 16 19:23:02 2024 +0100
+
+    0.0001
+
+[33mcommit 55a88c90c63fbdd9fc33d20d786dd3d0981faa76[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 16 19:16:06 2024 +0100
+
+    hotspots
+
+[33mcommit 1a505879f4b1e390560b5a97789b7a148af3a599[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 16 19:03:19 2024 +0100
+
+    blockkeep
+
+[33mcommit e3726c1bd9af772ba3cd5996431c77f4dde11c07[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Fri Jun 14 14:15:48 2024 +0100
+
+    0.00005 archi
+
+[33mcommit 4a0a3300102790468ff73eedeec3526af8dde5ee[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Fri Jun 14 14:05:07 2024 +0100
+
+    performance
+
+[33mcommit c2e46e032b406a482f3fb40e948da6635a5d9104[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Fri Jun 14 13:48:48 2024 +0100
+
+    access 0.00005
+
+[33mcommit 07edac9f571e8966e3f8ef165b95c0e1c65280c1[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Fri Jun 14 11:25:51 2024 +0100
+
+    access
+
+[33mcommit b5ca5c1b7bf19b1337c3427a18dbd84279287f3e[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Fri Jun 14 11:20:51 2024 +0100
+
+    memory access
+
+[33mcommit 79dce1e48095b6e3038df67510eb24ea2e8d8c54[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Fri Jun 14 11:14:52 2024 +0100
+
+    0.0004memory
+
+[33mcommit f01bde669b0f58eac47241d09b94c41c912b42b8[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 13 20:59:04 2024 +0100
+
+    memory default
+
+[33mcommit c3c8058558f234ac4894be7c62ee0ec7f9ca118c[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 13 20:01:35 2024 +0100
+
+    0.00005
+
+[33mcommit c99af3510f911295b44d3159353cb04ee91a7720[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 13 17:13:00 2024 +0100
+
+    6 profiling
+
+[33mcommit 67e01310e97dc3a4f2a9b3f20c06286afd6ffd3a[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 13 16:06:30 2024 +0100
+
+    correct results of initial code
+
+[33mcommit d36f3ae06e9785e57001829fa49197edc463b424[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 13 15:40:12 2024 +0100
+
+    part vtune
+
+[33mcommit 1d7cf96f8e98fa7cf705c5604a111d1314396d8d[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Thu Jun 13 14:51:39 2024 +0100
+
+    deflate test
+
+[33mcommit 891f5d6815e45632baa7a081e4deff46a53b4131[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Mon Jun 10 19:27:50 2024 +0100
+
+    cow30
+
+[33mcommit 590514193d13e8ad607e25183216ebeca141dcde[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 9 21:18:39 2024 +0100
+
+    level 2
+
+[33mcommit 136f5b9af0583c0ec19719823d50086ea1fc18ca[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 9 17:45:12 2024 +0100
+
+    level 0 1
+
+[33mcommit 285747a380e92c8a6eb349b772c0d9d72a650199[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 9 15:58:04 2024 +0100
+
+    level 3
+
+[33mcommit 51014357faa401224b0dadbb66dcd223f1669f7c[m
+Author: Chen Bo <1652496272@qq.com>
+Date:   Sun Jun 9 15:41:03 2024 +0100
+
+    Initial commit

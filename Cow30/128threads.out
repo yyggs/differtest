@@ -1,0 +1,55 @@
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.611383 s 
+Execution time: 7.10187 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.611483 s 
+Execution time: 11.2286 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.61345 s 
+Execution time: 3.95132 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.613021 s 
+Execution time: 3.93615 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.61229 s 
+Execution time: 5.71852 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.618731 s 
+Execution time: 23.9726 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.613231 s 
+Execution time: 25.8174 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.627634 s 
+Execution time: 23.3554 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.645054 s 
+Execution time: 23.8956 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.654874 s 
+Execution time: 23.6084 seconds
+/work/y07/shared/utils/core/amd-uprof/4.0.341/bin/AMDuProfCLI
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.091062 s 
+slurmstepd: error: *** JOB 7062207 ON nid001069 CANCELLED AT 2024-07-15T16:45:41 ***

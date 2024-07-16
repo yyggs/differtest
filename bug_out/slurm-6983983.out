@@ -1,0 +1,60 @@
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063183 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 26: 97387 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063482 s 
+double free or corruption (!prev)
+/var/spool/slurmd/job6983983/slurm_script: line 27: 98004 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063357 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 28: 98142 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063215 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 29: 98298 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063615 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 30: 98434 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063662 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 31: 98570 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063015 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 32: 98706 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.062977 s 
+double free or corruption (!prev)
+/var/spool/slurmd/job6983983/slurm_script: line 33: 98842 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063291 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 34: 98979 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
+Succesfully created closed polygon from input
+The polyhedron has 28608 facets 85824 halfedges 0 border halfedges 14306 vertices 
+Preprocessing took: 0.063655 s 
+corrupted size vs. prev_size while consolidating
+/var/spool/slurmd/job6983983/slurm_script: line 35: 99133 Aborted                 hlb-gmy-cli --voxel 0.0001 cyl.pr2
