@@ -1,0 +1,115 @@
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.374466 s 
+Using 128 threads
+Execution time: 1.98416 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.394545 s 
+Using 128 threads
+Execution time: 2.07189 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.396124 s 
+Using 128 threads
+Execution time: 2.06328 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.345406 s 
+Using 4 threads
+Execution time: 8.54902 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.364892 s 
+Using 4 threads
+Execution time: 8.58247 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.364718 s 
+Using 4 threads
+Execution time: 8.55002 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.363975 s 
+Using 8 threads
+Execution time: 3.82901 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.371206 s 
+Using 8 threads
+Execution time: 3.83508 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.363468 s 
+Using 8 threads
+Execution time: 3.83205 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.358077 s 
+Using 16 threads
+Execution time: 1.97031 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.369209 s 
+Using 16 threads
+Execution time: 1.96301 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.362611 s 
+Using 16 threads
+Execution time: 2.06939 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.375044 s 
+Using 32 threads
+Execution time: 1.4287 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.370951 s 
+Using 32 threads
+Execution time: 1.40149 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.372586 s 
+Using 32 threads
+Execution time: 1.55779 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.375174 s 
+Using 64 threads
+Execution time: 1.76432 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.36903 s 
+Using 64 threads
+Execution time: 1.69621 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.372597 s 
+Using 64 threads
+Execution time: 1.83383 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.385964 s 
+Using 128 threads
+Execution time: 2.12818 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.385818 s 
+Using 128 threads
+Execution time: 2.11544 seconds
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.387075 s 
+Using 128 threads
+Execution time: 2.12198 seconds

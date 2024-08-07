@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#SBATCH --export=none
 #SBATCH --job-name=GridGen
 #SBATCH --time=0:20:0
 #SBATCH --exclusive
@@ -20,25 +20,58 @@ module load boost
 module load gmp
 # module load forge
 module load amd-uprof
+module load valgrind4hpc
 
 cd $SLURM_SUBMIT_DIR
 
 
-hlb-gmy-cli --voxel 0.00002 CoW30.pr2
-hlb-gmy-cli --voxel 0.00002 CoW30.pr2
-hlb-gmy-cli --voxel 0.00002 CoW30.pr2
-hlb-gmy-cli --voxel 0.00002 CoW30.pr2
-hlb-gmy-cli --voxel 0.00002 CoW30.pr2
-hlb-gmy-cli --voxel 0.00001 CoW30.pr2
-hlb-gmy-cli --voxel 0.00001 CoW30.pr2
-hlb-gmy-cli --voxel 0.00001 CoW30.pr2
-hlb-gmy-cli --voxel 0.00001 CoW30.pr2
-hlb-gmy-cli --voxel 0.00001 CoW30.pr2
+# export GMY_TOOL_THREADS=4
+# hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+# hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+# hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+
+# export GMY_TOOL_THREADS=8
+# hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+# hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+# hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+
+export GMY_TOOL_THREADS=16
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+
+export GMY_TOOL_THREADS=32
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+
+export GMY_TOOL_THREADS=64
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+
+export GMY_TOOL_THREADS=128
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+hlb-gmy-cli --voxel 0.00002 CoW30.pr2 
+
+
+
+
+
+
+
+# hlb-gmy-cli --voxel 0.00001 CoW30.pr2
+# hlb-gmy-cli --voxel 0.00001 CoW30.pr2
+# hlb-gmy-cli --voxel 0.00001 CoW30.pr2
+# hlb-gmy-cli --voxel 0.00001 CoW30.pr2
+# hlb-gmy-cli --voxel 0.00001 CoW30.pr2
 
 # hlb-gmy-cli --voxel 0.0001 cyl.pr2
 # hlb-gmy-cli --voxel 0.0001 cyl.pr2
 # hlb-gmy-cli --voxel 0.0001 cyl.pr2
-
+# hlb-gmy-cli --voxel 0.00001 CoW30.pr2
+# AMDuProfCLI collect --config tbp --call-graph fpo:512 -o ./prof hlb-gmy-cli --voxel 0.00001 CoW30.pr2
 
 # AMDuProfCLI collect --config tbp -o ./prof hlb-gmy-cli --voxel 0.00001 CoW30.pr2
 # AMDuProfCLI report -i ./prof/AMDuProf-hlb-gmy-cli-TBP_Jul-09-2024_11-22-59/
@@ -54,3 +87,6 @@ hlb-gmy-cli --voxel 0.00001 CoW30.pr2
 
 # # Use MAP to profile the application
 # map --profile $PYTHON_EXEC $PYTHON_SCRIPT cyl.pr2
+
+# valgrind --tool=drd hlb-gmy-cli --voxel 0.00002 CoW30.pr2
+
