@@ -1,4 +1,4 @@
 # differtest
-This is the profiling, test, benchmark folder for the **Faster Parallel Grid Generation** project. 
+This is the profiling, execution, debugging, and benchmarking results repository for the **Faster Parallel Grid Generation** project, including Cirrus and Archer2 results. 
 
-It is the results of the Cirrus platform run, including Vtune results, Cirrus compute node submission results, and automated analysis scripts.
+Each tag corresponds to each big version of the code. Detailed information can be found in the tag descriptions.
