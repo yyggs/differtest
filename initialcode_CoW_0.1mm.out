@@ -1,0 +1,37 @@
+
+Lmod is automatically replacing "cce/15.0.0" with "gcc/11.2.0".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.3.3" with "PrgEnv-gnu/8.3.3".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.23
+
+0.4 mm
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.824213 s 
+Setup time: 11.574724 s
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.826597 s 
+Setup time: 11.546337 s
+
+0.2 mm
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.825583 s 
+Setup time: 54.684764 s
+
+0.1 mm
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.825751 s 
+Setup time: 322.348648 s
+
+0.075mm
+Succesfully created closed polygon from input
+The polyhedron has 87736 facets 263208 halfedges 0 border halfedges 43868 vertices 
+Preprocessing took: 0.829941 s 
+Setup time: 705.520558 s
